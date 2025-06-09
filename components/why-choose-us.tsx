@@ -11,7 +11,7 @@ export default function WhyChooseUs({ services }: WhyChooseUsProps) {
       <div className="container px-4 sm:px-6 md:px-8">
         <div className="text-center mb-8 sm:mb-12">
           <h2 className="text-2xl sm:text-3xl md:text-4xl font-bold tracking-tight text-groppa-dark-gray mb-4">
-            ¿Por Qué Elegir <span className="text-groppa-green">GROPPA</span>?
+            ¿Por Qué Elegir<span className="text-groppa-green">nos</span>?
           </h2>
           <p className="mt-4 max-w-2xl mx-auto text-base sm:text-lg text-slate-600 px-4 sm:px-0">
             Te ofrecemos más que una gestión inmobiliaria; te brindamos tranquilidad y resultados.
