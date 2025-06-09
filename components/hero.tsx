@@ -6,8 +6,7 @@ export default function Hero() {
     <section
       className="w-full h-screen py-12 sm:py-16 md:py-20 lg:py-32 xl:py-40 bg-cover bg-center relative"
       style={{
-        backgroundImage:
-          "url('https://hebbkx1anhila5yf.public.blob.vercel-storage.com/ChatGPT%20Image%208%20jun%202025%2C%2022_26_06-HsmHTHap1mSn7bu0GsBn8R8in2cL5O.png')",
+        backgroundImage: "url('/hero-image.png')",
       }}
     >
       <div className="absolute inset-0 bg-black/60"></div>

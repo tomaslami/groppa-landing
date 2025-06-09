@@ -19,7 +19,7 @@ export default function OurProcess({ processSteps }: OurProcessProps) {
       <div className="container px-4 sm:px-6 md:px-8 relative z-10">
         <div className="text-center mb-12 sm:mb-16">
           <h2 className="text-2xl sm:text-3xl md:text-4xl font-bold tracking-tight text-groppa-dark-gray mb-4">
-            Tu Camino con <span className="text-groppa-green">nosotros</span>
+            Tu Camino Con <span className="text-groppa-green">Nosotros</span>
           </h2>
           <p className="max-w-2xl mx-auto text-base sm:text-lg text-slate-600 px-4 sm:px-0">
             Seguí el recorrido paso a paso. Simple, claro y sin sorpresas.
