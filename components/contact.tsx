@@ -12,7 +12,7 @@ export default function Contact() {
       style={{ backgroundImage: "url('/placeholder.svg?width=1200&height=600')" }}
     >
       <div className="absolute inset-0 bg-black/40"></div>
-      <div className="container px-4 sm:px-6 md:px-8 relative z-10">
+      <div className="container px-6 sm:px-6 md:px-8 relative z-10">
         <Card className="max-w-lg mx-auto p-4 sm:p-6 shadow-xl bg-white/95 backdrop-blur-sm">
           <CardHeader className="text-center pb-3 sm:pb-4">
             <CardTitle className="text-xl sm:text-2xl font-bold text-groppa-dark-gray mb-2">

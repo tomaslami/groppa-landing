@@ -16,12 +16,12 @@ export default function OurProcess({ processSteps }: OurProcessProps) {
       <div className="absolute top-10 left-10 w-20 h-20 sm:w-32 sm:h-32 bg-groppa-green/10 rounded-full blur-xl hidden sm:block"></div>
       <div className="absolute bottom-10 right-10 w-24 h-24 sm:w-40 sm:h-40 bg-groppa-green/5 rounded-full blur-2xl hidden sm:block"></div>
 
-      <div className="container px-4 sm:px-6 md:px-8 relative z-10">
+      <div className="container px-6 sm:px-6 md:px-8 relative z-10">
         <div className="text-center mb-12 sm:mb-16">
           <h2 className="text-2xl sm:text-3xl md:text-4xl font-bold tracking-tight text-groppa-dark-gray mb-4">
             Tu Camino Con <span className="text-groppa-green">Nosotros</span>
           </h2>
-          <p className="max-w-2xl mx-auto text-base sm:text-lg text-slate-600 px-4 sm:px-0">
+          <p className="max-w-2xl mx-auto text-base sm:text-lg text-slate-600 px-6 sm:px-0">
             Seguí el recorrido paso a paso. Simple, claro y sin sorpresas.
           </p>
         </div>
