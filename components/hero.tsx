@@ -4,14 +4,14 @@ import { Button } from "@/components/ui/button"
 export default function Hero() {
   return (
     <section
-      className="w-full py-12 sm:py-16 md:py-20 lg:py-32 xl:py-40 bg-cover bg-center relative"
+      className="w-full h-screen py-12 sm:py-16 md:py-20 lg:py-32 xl:py-40 bg-cover bg-center relative"
       style={{
         backgroundImage:
           "url('https://hebbkx1anhila5yf.public.blob.vercel-storage.com/ChatGPT%20Image%208%20jun%202025%2C%2022_26_06-HsmHTHap1mSn7bu0GsBn8R8in2cL5O.png')",
       }}
     >
       <div className="absolute inset-0 bg-black/60"></div>
-      <div className="container px-4 sm:px-6 md:px-8 text-center text-white relative z-10">
+      <div className="container h-full px-4 sm:px-6 md:px-8 text-center text-white relative z-10 flex items-center">
         <div className="max-w-5xl mx-auto">
           <h1 className="text-2xl sm:text-3xl md:text-4xl lg:text-5xl xl:text-6xl font-bold tracking-tight leading-tight mb-6 sm:mb-8">
             Vender o alquilar tu propiedad no es solo una operación.

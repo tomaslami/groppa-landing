@@ -103,7 +103,7 @@ export default function OurProcess({ processSteps }: OurProcessProps) {
 
           {/* Call to action integrado */}
           <div className="mt-12 sm:mt-16 text-center">
-            <div className="inline-flex flex-col sm:flex-row items-center bg-white rounded-full px-6 sm:px-8 py-4 shadow-lg border border-groppa-green/20 gap-3 sm:gap-4">
+            <div className="inline-flex flex-row items-center bg-white rounded-full px-6 sm:px-8 py-4 shadow-lg border border-groppa-green/20 gap-3 sm:gap-4">
               <span className="text-slate-600 text-sm sm:text-base">¿Listo para empezar?</span>
               <Button
                 asChild
