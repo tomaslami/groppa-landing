@@ -105,13 +105,13 @@ export default function Footer() {
                 className="justify-start text-slate-300 hover:text-groppa-green hover:bg-transparent hover:underline p-0 h-auto"
               >
                 <a
-                  href="https://www.instagram.com/groppa_propiedades/"
+                  href="https://www.instagram.com/groppaprop/"
                   target="_blank"
                   rel="noopener noreferrer"
                   className="flex items-center gap-2"
                 >
                   <Instagram className="h-4 w-4 sm:h-5 sm:w-5" />
-                  @groppa_propiedades
+                  @groppaprop
                 </a>
               </Button>
             </div>
