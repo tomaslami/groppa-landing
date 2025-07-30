@@ -62,15 +62,13 @@ export default function OurProcess() {
     <section className="min-h-screen bg-gradient-to-br from-slate-50 via-white to-slate-100 relative overflow-hidden py-20">
       <div className="container mx-auto px-6 relative z-10">
         {/* Header */}
-        <div className="text-center mb-20">
-          <h2 className="text-4xl md:text-5xl font-bold text-groppa-dark-gray mb-6">
+        <div className="text-center mb-8 sm:mb-12">
+          <h2 className="text-2xl sm:text-3xl md:text-4xl font-bold tracking-tight text-groppa-dark-gray mb-4">
             Nuestro Proceso a la{" "}
             <span className="text-groppa-green">Venta</span>
           </h2>
-          <p className="text-xl text-slate-600 max-w-3xl mx-auto leading-relaxed">
-            Un proceso transparente y eficiente diseñado específicamente para la
-            venta de departamentos. Cada paso está optimizado para obtener el
-            mejor precio en el menor tiempo.
+          <p className="mt-4 max-w-2xl mx-auto text-base sm:text-lg text-slate-600 px-6 sm:px-0">
+            Un proceso transparente y eficiente diseñado específicamente para la venta de departamentos. Cada paso está optimizado para obtener el mejor precio en el menor tiempo.
           </p>
         </div>
 

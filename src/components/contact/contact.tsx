@@ -18,11 +18,11 @@ export default function Contact() {
     <section className="min-h-screen relative overflow-hidden">
       <div className="relative z-10 container mx-auto px-6 py-20">
         {/* Header Section */}
-        <div className="text-center mb-20">
-          <h1 className="text-4xl md:text-5xl font-bold text-groppa-dark-gray mb-6 tracking-tight">
+        <div className="text-center mb-8 sm:mb-12">
+          <h2 className="text-2xl sm:text-3xl md:text-4xl font-bold tracking-tight text-groppa-dark-gray mb-4">
             Escribinos para <span className="text-groppa-green">saber más</span>
-          </h1>
-          <p className="text-xl text-slate-600 max-w-2xl mx-auto leading-relaxed">
+          </h2>
+          <p className="mt-4 max-w-2xl mx-auto text-base sm:text-lg text-slate-600 px-6 sm:px-0">
             Contáctanos para resolver tus dudas y concretar tu compra.
           </p>
         </div>
@@ -35,12 +35,11 @@ export default function Contact() {
               <Card className="bg-white border border-slate-200 shadow-lg overflow-hidden">
                 <CardContent className="p-8 md:p-12">
                   <div className="mb-8">
-                    <h2 className="text-3xl font-bold text-groppa-dark-gray mb-3">
+                    <h3 className="text-lg sm:text-xl font-semibold text-groppa-dark-gray">
                       Envía tu Consulta
-                    </h2>
-                    <p className="text-slate-600">
-                      Completa el formulario y nos pondremos en contacto en
-                      menos de 24 horas
+                    </h3>
+                    <p className="text-slate-600 mt-2 text-sm sm:text-base leading-relaxed">
+                      Completa el formulario y nos pondremos en contacto en menos de 24 horas
                     </p>
                   </div>
 

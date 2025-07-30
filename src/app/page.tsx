@@ -23,7 +23,6 @@ export default function GroppaLandingPage() {
       </main>
 
       <Footer />
-      <WhatsAppButton />
     </div>
   )
 }
