@@ -6,7 +6,7 @@ import Link from "next/link"
 
 export default function Hero() {
   return (
-    <section className="w-full py-16 sm:py-20 md:py-24 lg:py-32 xl:py-40 bg-slate-800 relative">
+    <section className="w-full h-screen py-16 sm:py-20 md:py-24 lg:py-32 xl:py-40 bg-slate-800 flex flex-col justify-center items-center">
       {/* Elementos decorativos */}
       <div className="absolute top-10 left-10 w-32 h-32 bg-groppa-green/10 rounded-full blur-2xl"></div>
       <div className="absolute bottom-10 right-10 w-40 h-40 bg-groppa-green/5 rounded-full blur-3xl"></div>
