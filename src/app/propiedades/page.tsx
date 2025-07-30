@@ -156,7 +156,7 @@ export default function PropiedadesPage() {
                 GROPPA
               </Link>
             </div>
-            <div className="flex items-center gap-2">
+            <div className="hidden md:flex items-center gap-2">
               <Button
                 variant={viewMode === "grid" ? "default" : "outline"}
                 size="sm"
