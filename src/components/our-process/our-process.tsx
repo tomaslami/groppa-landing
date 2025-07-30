@@ -88,7 +88,7 @@ export default function OurProcess() {
                 return (
                   <div key={index} className="relative">
                     {/* Timeline Node */}
-                    <div className="absolute left-1/2 transform -translate-x-1/2 w-12 h-12 bg-gradient-to-br from-groppa-green to-groppa-green/80 rounded-full flex items-center justify-center shadow-lg z-10  lg:flex">
+                    <div className="absolute left-1/2 transform -translate-x-1/2 w-12 h-12 bg-gradient-to-br from-groppa-green to-groppa-green/80 rounded-full items-center justify-center shadow-lg z-10 hidden lg:flex">
                       <span className="text-white font-bold text-base">
                         {index + 1}
                       </span>
