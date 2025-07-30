@@ -22,11 +22,11 @@ export default function FeaturedProperties() {
           </p>
         </div>
 
-        <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6 sm:gap-8 max-w-7xl mx-auto">
+        <div className="flex justify-center items-center gap-6 sm:gap-8 max-w-7xl mx-auto">
           {featuredProperties.map((property, index) => (
             <Card
               key={`${property.id}-${index}`}
-              className="overflow-hidden shadow-lg hover:shadow-xl transition-shadow duration-300 bg-white border border-slate-200 h-full group"
+              className="overflow-hidden shadow-lg hover:shadow-xl transition-shadow duration-300 bg-white border border-slate-200 h-full lg:w-[30%] w-[80%] group"
             >
               <div className="relative overflow-hidden">
                 <Image

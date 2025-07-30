@@ -83,8 +83,6 @@ export const allProperties: PropertyData[] = Object.values(propertyData)
 export const featuredProperties: PropertyData[] = [
   propertyData["1"],
   // Nota: Solo tenemos una propiedad por ahora, repetiremos para demostración
-  propertyData["1"],
-  propertyData["1"],
 ].filter(Boolean) // Filtrar propiedades undefined
 
 // Función helper para obtener una propiedad por ID
