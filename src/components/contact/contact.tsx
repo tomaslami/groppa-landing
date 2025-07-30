@@ -2,6 +2,7 @@ import { Button } from "@/components/ui/button"
 import { Card, CardContent } from "@/components/ui/card"
 import { Input } from "@/components/ui/input"
 import { Textarea } from "@/components/ui/textarea"
+import { generateWhatsAppMessage } from "@/lib/utils"
 import {
   MessageCircle,
   Phone,
@@ -132,7 +133,7 @@ export default function Contact() {
                       className="w-full h-12 bg-groppa-green hover:bg-groppa-green/90 text-white font-semibold text-base shadow-lg transition-all duration-300"
                     >
                       <a
-                        href="https://wa.me/+5491126631808?text=Hola!!%20Estoy%20interesado/a%20en%20sus%20servicios."
+                        href={generateWhatsAppMessage("contact")}
                         target="_blank"
                         rel="noopener noreferrer"
                       >
@@ -146,7 +147,7 @@ export default function Contact() {
                       variant="outline"
                       className="w-full h-12 border-2 border-groppa-green/30 text-groppa-dark-gray hover:bg-groppa-green/10 font-semibold text-base transition-all duration-300 bg-white"
                     >
-                      <a href="tel:+541123456789">
+                      <a href="tel:+5491124787452">
                         <Phone className="mr-3 h-4 w-4" />
                         Llamar Ahora
                       </a>

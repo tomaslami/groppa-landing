@@ -1,6 +1,7 @@
 import Link from "next/link"
 import { Button } from "@/components/ui/button"
 import { MessageCircle, Phone, Instagram, Award } from "lucide-react"
+import { generateWhatsAppMessage } from "@/lib/utils"
 
 export default function Footer() {
   return (
@@ -79,32 +80,32 @@ export default function Footer() {
                 asChild
                 className="justify-start text-slate-300 hover:text-groppa-green hover:bg-transparent hover:underline p-0 h-auto"
               >
-                <a
-                  href="https://wa.me/+5491126631808?text=Hola!!%20Estoy%20interesado/a%20en%20sus%20servicios."
+                <Link
+                  href={generateWhatsAppMessage("services")}
                   target="_blank"
                   rel="noopener noreferrer"
                   className="flex items-center gap-2"
                 >
                   <MessageCircle className="h-4 w-4 sm:h-5 sm:w-5" />
                   WhatsApp
-                </a>
+                </Link>
               </Button>
               <Button
                 variant="ghost"
                 asChild
                 className="justify-start text-slate-300 hover:text-groppa-green hover:bg-transparent hover:underline p-0 h-auto"
               >
-                <a href="tel:+541126631808" className="flex items-center gap-2">
+                <Link href="tel:+5491124787452" className="flex items-center gap-2">
                   <Phone className="h-4 w-4 sm:h-5 sm:w-5" />
                   Llamar Ahora
-                </a>
+                </Link>
               </Button>
               <Button
                 variant="ghost"
                 asChild
                 className="justify-start text-slate-300 hover:text-groppa-green hover:bg-transparent hover:underline p-0 h-auto"
               >
-                <a
+                <Link 
                   href="https://www.instagram.com/groppaprop/"
                   target="_blank"
                   rel="noopener noreferrer"
@@ -112,7 +113,7 @@ export default function Footer() {
                 >
                   <Instagram className="h-4 w-4 sm:h-5 sm:w-5" />
                   @groppaprop
-                </a>
+                </Link>
               </Button>
             </div>
           </div>

@@ -1,9 +1,10 @@
 import Link from "next/link"
+import { generateWhatsAppMessage } from "@/lib/utils"
 
 export default function WhatsAppButton() {
   return (
     <Link
-      href="https://wa.me/5492213612196"
+      href={generateWhatsAppMessage("services")}
       target="_blank"
       rel="noopener noreferrer"
       className="fixed bottom-6 right-6 z-50 bg-groppa-green hover:bg-groppa-green/80 text-white p-3 rounded-full shadow-lg transition-all duration-150"
